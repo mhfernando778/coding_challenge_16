@@ -34,4 +34,9 @@ function displayProducts(products) {
     });
   }
 
-  
+
+  // Task 5 - Reusable Error Handler//
+
+  function handleError(error) {
+    console.error('Error occurred:', error.message);
+  }
